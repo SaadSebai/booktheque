@@ -1,0 +1,202 @@
+
+/* Nav bar*/
+.navbar-fff {
+	background-color: #0687BF;
+	border-color: #428bca;
+	border-radius: 0;
+}
+.navbar-fff .navbar-brand,
+.navbar-fff .navbar-brand:hover,
+.navbar-fff .navbar-brand:focus, {
+	color: #000000;
+}
+.navbar-fff  .navbar-nav > li > a {
+	color: #000000;
+	font-family: 'Lateef', serif;
+}
+.navbar-fff .navbar-nav > li > a:hove,
+.navbar-fff .navbar-nav > li > a:focus{
+	background-color: #428bca;
+}
+.navbar-fff .navbar-nav > .active > a,
+.navbar-fff .navbar-nav > .active > a:hover,
+.navbar-fff .navbar-nav > .active > a:focus{
+	color: #000000;
+	background-color: #428bca;
+}
+.navbar-fff .navbar-nav a:hover {
+  background-color: #428bca;
+}
+.navbar-fff .navbar-nav a {
+  padding: 14px 16px;
+}
+.navbar-fff .navbar-text {
+	color: #000000;
+}
+.navbar-fff .navbar-toggle {
+	border-color: #428bca;
+}
+.navbar-fff .navbar-toggle:hover,
+.navbar-fff .navbar-toggle:focus {
+	background-color: #428bca;
+}
+.navbar-fff li a:focus{
+	background: #428bca;
+}
+
+/* Footer */
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #0687BF;
+	padding: 20px 0px;
+	margin-top: 12px;
+}
+.footer-social-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #272727;
+}
+.footer-social-icons ul li a{
+	color: #0687BF;
+	font-size: 25px;
+}
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+.footer-social-icons ul li:hover{
+	background: red;
+}
+.footer-social-icons ul li:hover a{
+	color: #fff
+}
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #272727; 
+	padding: 5px;
+}
+.footer-bottom p{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+}
+/* h1 */
+h1 {
+	font-family: 'Lateef', serif;
+}
+/* panel links */
+.panel-body .panel-primary a:hover {
+	text-decoration: none;
+}
+.fin {
+	background: #0687BF;
+	color: #fff;
+	padding: 30px;
+	transition: 0.3px;
+}
+.fin:hover {
+	background:#26a69a;
+	cursor: pointer;
+}
+.fa-upload {
+	margin-right: 10px;
+}
+#file {
+	display: none;
+}
+.dropdown-menu a {
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+   text-align-last: right;
+  text-align: right;
+  -ms-text-align-last: right;
+  -moz-text-align-last: right;
+}
+a img {
+	width:200px; height:200px;
+}
+a img:hover {
+	width:210px; height:210px;
+}
+#myCarousel {
+	margin-bottom: 15px;
+	width:1150px; height:500px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    background: #0687BF;
+	color: #fff;
+	padding: 20px;
+	transition: 0.3px;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #428bca;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.btn-blue {
+	background-color: #0687BF;
+	color: #FFF;
+}
+.btn-blue:hover {
+	background-color: #428bca;
+	color: #FFF;
+}
+.AA {
+	font-size: 18px;
+	background: #0687BF;
+	color: #fff;
+	padding: 10px;
+	transition: 0.3px;
+    display: inline-block;
+    min-width: 200px;
+}
+.AA:hover {
+	background: #428bca;
+	color: #fff;
+	text-decoration: none;
+}
+.AA:active {
+	background: #CCC;
+	color: #000;
+	text-decoration: none;
+}
+.AA:focus {
+	background: #CCC;
+	color: #000;
+	text-decoration: none;
+}
